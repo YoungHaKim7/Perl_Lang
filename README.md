@@ -6,6 +6,14 @@ https://youtu.be/WEghIXs8F6c
 
 <br>
 
+# Perl Install (macOS)
+
+```
+$ brew install perl
+```
+
+<br>
+
 # Terminal 창에서 실행하기
 
 ```
