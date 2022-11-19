@@ -1,27 +1,3 @@
-# Perl_Lang
-
-Perl Tutorial
-
-https://youtu.be/WEghIXs8F6c
-
-<br>
-
-# Terminal 창에서 실행하기
-
-```
-$ perl -e 'print "Hello World\n"'
-
-Hello World
-```
-
-<hr>
-
-# .pl 파일 만들어서 실행하기
-
-- perllib.pl
-  <br>
-
-```
 use strict;
 use warnings;
 use diagnostics;
@@ -47,7 +23,7 @@ $my_info = qq{$name lives on "$street"\n};
 print $my_info;
 
 my $bunch_on_info = <<"END";
-This is a
+This is a 
 bunch of information
 on multiple lines
 END
@@ -65,19 +41,3 @@ my $big_int = 181818181818119383287198;
 
 printf("%u \n", $big_int + 1);
 
-
-```
-
-# Result
-
-```
-$ perl perllib.pl
-
-Hello World
-GlobalYoung lives on "123 Main St"
-This is a
-bunch of information
-on multiple lines
-
-18446744073709551615
-```
