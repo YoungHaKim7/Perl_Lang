@@ -14,6 +14,12 @@ $ brew install perl
 
 <br>
 
+# Perl Language
+
+https://www.perl.org/
+
+<br>
+
 # Terminal 창에서 실행하기
 
 ```
